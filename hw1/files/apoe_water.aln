@@ -1,0 +1,361 @@
+########################################
+# Program: water
+# Rundate: Mon 21 Apr 2025 23:51:52
+# Commandline: water
+#    -asequence apoe-homo.fasta
+#    -bsequence apoe-mouse.fasta
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile apoe_water.aln
+#    -datafile EDNAFULL
+#    -sprotein1 false
+#    -sprotein2 false
+# Align_format: srspair
+# Report_file: apoe_water.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 44905796-44909393
+# 2: c19434326-19430169
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4008
+# Identity:    2000/4008 (49.9%)
+# Similarity:  2000/4008 (49.9%)
+# Gaps:        1506/4008 (37.6%)
+# Score: 5358.0
+# 
+#
+#=======================================
+
+44905796-4490      2 TACTCAGCCCCAGCGGAGGTGAAGG--------ACGTCCTTCC-----CC     38
+                     |.|||.|||    |.|..|||||||        ||..||..||     .|
+c19434326-194   1216 TCCTCTGCC----CTGCTGTGAAGGGGGAGAGAACAACCCGCCTCGTGAC   1261
+
+44905796-4490     39 AGG----------AGCCGG---------TGAGAAGCGCAGTCGGGGGCAC     69
+                     |||          ||||.|         ||||.|        ||||||  
+c19434326-194   1262 AGGGGGCTGGCACAGCCCGCCCTAGCCCTGAGGA--------GGGGGC--   1301
+
+44905796-4490     70 GGGGATGAGCTCAGGGG----CCTCTA----GAAAGAGCTGGGACCCTGG    111
+                      ||||      ||||||    |||.||    ||..|..||||||.||   
+c19434326-194   1302 -GGGA------CAGGGGGAGTCCTATAATTGGACCGGTCTGGGATCC---   1341
+
+44905796-4490    112 GAACCCCTGGCCTCCAGGTAGTCTCAGGAGAGCTACTCGGGGTCGGGCTT    161
+                     ||.||||||  |||     ||.|.|.|||| ||||        .||.|||
+c19434326-194   1342 GATCCCCTG--CTC-----AGACCCTGGAG-GCTA--------AGGACTT   1375
+
+44905796-4490    162 G---GGGAGAGGAGGAGCGGGGGTGAGGCAAGC--AGCAGGGGACT----    202
+                     |   .|||    ||||||  .|||.||.|||||  .||.|||||.|    
+c19434326-194   1376 GTTTCGGA----AGGAGC--TGGTAAGACAAGCTGGGCTGGGGATTCACC   1419
+
+44905796-4490    203 ---GGACCTGGGAA------GGGCTGGGCAGC-AGAGACGACCCG-----    237
+                        ||||||.||.|      ||||||||.|.| .||||...||||     
+c19434326-194   1420 CAGGGACCTTGGTAGGATGTGGGCTGGGAACCTTGAGATCCCCCGGAGTC   1469
+
+44905796-4490    238 ----------------------------------ACCCGCTAGAAG--GT    251
+                                                       .|.||.||||||  .|
+c19434326-194   1470 CAGGAAACAGGCACAAGAATTGGAAAAGCAGGCAGCACGATAGAAGTCTT   1519
+
+44905796-4490    252 GGGGTGGGGAGAGCAGCT--GGACTGGGATGTA---------------AG    284
+                     ||||      ||..|.||  ||||| .||.|||               ||
+c19434326-194   1520 GGGG------GACAAACTAAGGACT-CGAGGTAACTAGCCTTTGCCAGAG   1562
+
+44905796-4490    285 CCATAGCAGG-----------ACTCC----ACGAGT-------TGTC---    309
+                     .||.||||||           .||||    |.||||       ||||   
+c19434326-194   1563 TCAGAGCAGGTGGAGGGGTTACCTCCAGGAAGGAGTACGGGACTGTCGGT   1612
+
+44905796-4490    310 -------------------------ACTATCATTT---------------    319
+                                              ||.|||.|.|               
+c19434326-194   1613 GCACGGCGTACCGGCTCAACTAGGAACCATCCTATGGCGAAAAAACTCGG   1662
+
+44905796-4490    320 -ATCGAGC----------------------ACCTACTGGGT---------    337
+                      || ||||                      ||||||||..|         
+c19434326-194   1663 GAT-GAGCCTTAGGCTGCTTTTATATAAATACCTACTGATTTCCATCACA   1711
+
+44905796-4490    338 GTCCCCA------------------------GTG--TCCTCA-----GAT    356
+                     |||||||                        |||  ||||||     ||.
+c19434326-194   1712 GTCCCCAAGTAACCCGGACTGGTTTCAAACTGTGGCTCCTCATGGCTGAG   1761
+
+44905796-4490    357 CTCCATAA---CTG-------GGGAGCCAGGGGCAGCGACACGGTAGC--    394
+                     ||||.|||   |||       |||||                ||||.|  
+c19434326-194   1762 CTCCCTAAGTTCTGTAGTTGTGGGAG----------------GGTACCAC   1795
+
+44905796-4490    395 -TAGCCGTCGATTGGAGAAC--TTTAAAAT-GAGGACTGAATTAGCTCAT    440
+                      |.||.|  |..|||||.||  ||.||||| |.|  .|.|||||.|.|| 
+c19434326-194   1796 TTCGCAG--GGATGGAGGACGATTAAAAATCGTG--TTAAATTAACACA-   1840
+
+44905796-4490    441 AAATGGAACACGGCGCTTAACTGTGAGGTTGGAGCTTAGAATGTGAAGGG    490
+                     ||||||||..|.|..||||.|.|                        ||.
+c19434326-194   1841 AAATGGAAAGCAGGACTTAGCCG------------------------GGA   1866
+
+44905796-4490    491 AGAATGAGGAATGCGAGACTGGGACTGAGATGGA--ACCGGCGG------    532
+                     ||||.||||||||            |.||.||||  |||.||.|      
+c19434326-194   1867 AGAAAGAGGAATG------------TAAGCTGGACCACCCGCTGGCCCTC   1904
+
+44905796-4490    533 TGGGGAGGGGGTGGGGGGATGGAATTTGAACCCCGGGAGAGGAAGATGGA    582
+                     ||.|.||            ||||||||||||||..|||||||.||.||||
+c19434326-194   1905 TGTGAAG------------TGGAATTTGAACCCTAGGAGAGGGAGCTGGA   1942
+
+44905796-4490    583 ATTTTCTATGGAGGCCGA-----CCTGGGGATGGGGAGATAAGAGAA---    624
+                     |||||   |||..||.||     ||.|||| ||..||||| ||.|||   
+c19434326-194   1943 ATTTT---TGGCAGCGGATCCACCCCGGGG-TGCCGAGAT-AGCGAACTC   1987
+
+44905796-4490    625 GACCAGGAGGGAGTTAAA-------TAGGGAATGGGTTGGGGGCGGCTTG    667
+                     |.|.||  |||||.||||       |.|||||        |.||||    
+c19434326-194   1988 GGCAAG--GGGAGGTAAACAGACCTTTGGGAA--------GAGCGG----   2023
+
+44905796-4490    668 GTAAATGTGCTGGGATTAGGCTG--TTGCAGATAATGCAACAAGGCTTG-    714
+                           |||||         |||  |||.||||           |.||| 
+c19434326-194   2024 ------GTGCT---------CTGTTTTGGAGAT-----------GTTTGT   2047
+
+44905796-4490    715 GAAGGCTAAC----CT-----GGGGTGAGGCCGGGTTGGGGCCGGGCTGG    755
+                     ||.||||.||    ||     |||..||.|  |||||         ||..
+c19434326-194   2048 GATGGCTCACAGATCTGAGAAGGGAAGATG--GGGTT---------CTCT   2086
+
+44905796-4490    756 GGGTGGGAGGAGTC------------CTCACTGGCGGTTGATTGACAGTT    793
+                     ||||||..||||||            |.|.|||| .|||.|..||||.||
+c19434326-194   2087 GGGTGGCCGGAGTCCCTCCACCCCCGCCCCCTGG-TGTTCAAAGACAATT   2135
+
+44905796-4490    794 TCTCCTTCCCCAGACTGGCCAATCACA--GGCAGGAAGATGAAGGTTCTG    841
+                     |.|||.|||.|||||||||||||||||  .||  |||||||||||.||||
+c19434326-194   2136 TTTCCCTCCGCAGACTGGCCAATCACAATTGC--GAAGATGAAGGCTCTG   2183
+
+44905796-4490    842 TGGGCTGCGTTGCTGGTCACATTCCTGGCAGGTATGGGGGCGGGGCTTGC    891
+                     |||||.|.|.||.||||||||||.|||.|||||||||.|...||.|||||
+c19434326-194   2184 TGGGCCGTGCTGTTGGTCACATTGCTGACAGGTATGGAGCAAGGACTTGC   2233
+
+44905796-4490    892 T-CGGTTCCCC-----CCGCTCCTC---CCCCTCTCATCCTCA--CCTCA    930
+                     | .|||.||.|     |.|||||||   ...|||| ||.|| |  |||..
+c19434326-194   2234 TGTGGTGCCGCTTTTTCTGCTCCTCTGTGGACTCT-ATTCT-AGCCCTAG   2281
+
+44905796-4490    931 ACCTCCT---------GGCCCCATTCAGGCAGACCCTGGGCCCCCTCTTC    971
+                     |.|||.|         ||     ||.||||.||..|.|         |||
+c19434326-194   2282 ATCTCTTCTGCTGGTGGG-----TTGAGGCTGAGGCGG---------TTC   2317
+
+44905796-4490    972 TGAGGCTTCTGTGCTGCTTC-CTGGCTCTGAACAGCGATTT--GACGCTC   1018
+                     ||||.|.|||.|| .|.||| .|.||.||||.||||..|||  .|..|||
+c19434326-194   2318 TGAGACCTCTCTG-AGATTCAATAGCCCTGAGCAGCTGTTTTATATACTC   2366
+
+44905796-4490   1019 TCTGGGCCTCGGTTTCCCCCATCCTTGAGATAGGAGTTAGAAGTTGTTTT   1068
+                     |.|.|||||.|.|||||||.|.|..|.||  ||||               
+c19434326-194   2367 TTTAGGCCTTGATTTCCCCTAACTATAAG--AGGA---------------   2399
+
+44905796-4490   1069 GTTGTTGTTGTTTGTTGTTGTTGTTTTGTTTTTTTGAGATGAAGTCTCGC   1118
+                                      |||.||..||                       
+c19434326-194   2400 -----------------TTGATGGCTT-----------------------   2409
+
+44905796-4490   1119 TCTGTCGCCCAGGCTGGAGTGCAGTGGCGGGATCTCGGCTCACTGCAAGC   1168
+                                           |||||                 |.||  
+c19434326-194   2410 ----------------------AGTGG-----------------GTAA--   2418
+
+44905796-4490   1169 TCCGCCTCCCAGGTCCACGCCATTCTCCTGCCTCAGCCTCCCAAGTAGCT   1218
+                               ||||.|      ||.||.|             ||  ||||
+c19434326-194   2419 ----------AGGTGC------TTATCAT-------------AA--AGCT   2437
+
+44905796-4490   1219 GG--GACTACAGGCACATGCCACCACACCCGACTAACTTTTTTGTATTTT   1266
+                     .|  ||||                         |||||.|          
+c19434326-194   2438 TGAAGACT-------------------------TAACTCT----------   2452
+
+44905796-4490   1267 CAGTAGAGACGGGGTTTCACCATGTTGGCCAGGCTGG-----------TC   1305
+                          |||||       ||.|||..||| .|||...|           ||
+c19434326-194   2453 -----GAGAC-------CAACATAGTGG-AAGGAGAGAGCCAATTCCCTC   2489
+
+44905796-4490   1306 TGGAACTCCTGACCTCAGGTGATCTGCCCGTTTCGATCTCCCAAAGTGCT   1355
+                     |.||||| |||||||                         ||||      
+c19434326-194   2490 TAGAACT-CTGACCT-------------------------CCAA------   2507
+
+44905796-4490   1356 GGGATTACAGGCGTGAGCCACCGCACCTGGCTGGGAGTTAGAGGTTTCTA   1405
+                     |||  ||||                                         
+c19434326-194   2508 GGG--TACA-----------------------------------------   2514
+
+44905796-4490   1406 ATGCATTGCAGGCAGATAGTGAATACCAGACACGGGGCAGCTGTGATCTT   1455
+                                               ||.|||                  
+c19434326-194   2515 --------------------------CACACA------------------   2520
+
+44905796-4490   1456 TATTCTCCATCACCCCCACACAGCCCTGCCTGGGGCACACAAGGACACTC   1505
+                               |||.|.||||||             ||||||...||||.|
+c19434326-194   2521 ----------CACACACACACA-------------CACACACACACACAC   2547
+
+44905796-4490   1506 AATACA----TGCTTTTCCGCTGGGCGCGGTGGCTCACCCCTGTAATCCC   1551
+                     ||||.|    ||.|||         |...||.||||              
+c19434326-194   2548 AATAAAAAGTTGATTT---------CTTAGTTGCTC--------------   2574
+
+44905796-4490   1552 AGCACTTTGGGAGGCCAAGGTGGGAGGAT-CA----CTTGAGCCCAGGAG   1596
+                           ||       .||.||||| |.|| ||    ||          |.
+c19434326-194   2575 ------TT-------AAAAGTGGG-GTATACATTTTCT----------AA   2600
+
+44905796-4490   1597 TTCAACACCAGCCTGGGCAACATAGTGAGACCCT-GTCTCT--ACTA---   1640
+                     |||.|||||.|||         ||||      || |.||||  ||||   
+c19434326-194   2601 TTCCACACCTGCC---------TAGT------CTCGGCTCTGAACTACAT   2635
+
+44905796-4490   1641 AAAATACAAAAATTAGCCAG-GCATGGTGCCACACACCTGTGCTCTCAGC   1689
+                     |..|||||      ||.||| |||||          |.|||         
+c19434326-194   2636 AGGATACA------AGACAGTGCATG----------CTTGT---------   2660
+
+44905796-4490   1690 TACTCAGGAGGCTGAGGCAGGAGGATCGCTTGAGCCCAGAAGGTCAAGGT   1739
+                                          ||.|||                       
+c19434326-194   2661 ---------------------AGTATC-----------------------   2666
+
+44905796-4490   1740 TGCAGTGAACCATGTTCAGGCCGCTGCACTC--CAGCCTGGGTGACAGAG   1787
+                          |.||       |||        ||||  ||||||           
+c19434326-194   2667 -----TAAA-------CAG--------ACTCCACAGCCT-----------   2685
+
+44905796-4490   1788 CAAGACCCTGTTTATAAATACATAATGCTTTCCAAGTGATTAAACCGACT   1837
+                     |.||||||           ||        |||.|||.||           
+c19434326-194   2686 CCAGACCC-----------AC--------TTCAAAGAGA-----------   2705
+
+44905796-4490   1838 CCCCCCTCACCCTGCCCACCATGGCTCCAAAGAAGCATTTGTGGAGCACC   1887
+                                   ||||         .|||||                 
+c19434326-194   2706 --------------CCCA---------AAAAGA-----------------   2715
+
+44905796-4490   1888 TTCTGTGTGCCCCTAGGTACTAGATGCCTGGACGGGGTCAGAAGGACCCT   1937
+                       |||        |||||                             |||
+c19434326-194   2716 --CTG--------TAGGT-----------------------------CCT   2726
+
+44905796-4490   1938 GACCCA-CCTTGAACTTGTTCCACACAGGATGCCAGGCCAAGGTGGAGCA   1986
+                     |||||| ||||.|||||..||.||||||||||||..|||.|||..|||| 
+c19434326-194   2727 GACCCAGCCTTAAACTTACTCTACACAGGATGCCTAGCCGAGGGAGAGC-   2775
+
+44905796-4490   1987 AGCGGTGGAGACAGAGCCGGAGCCCGAGCTGCGCCAGCAGACCGAGTGGC   2036
+                       |||.||.||||||.|         ||||            ||||||||
+c19434326-194   2776 --CGGAGGTGACAGATC---------AGCT------------CGAGTGGC   2802
+
+44905796-4490   2037 AGAGCGGCCAGCGCTGGGAACTGGCACTGGGTCGCTTTTGGGATTACCTG   2086
+                     |.|||..|||.|.||||||.|.|||.|||...|||||.||||||||||||
+c19434326-194   2803 AAAGCAACCAACCCTGGGAGCAGGCCCTGAACCGCTTCTGGGATTACCTG   2852
+
+44905796-4490   2087 CGCTGGGTGCAGACACTGTCTGAGCAGGTGCAGGAGGAGCTGCTCAGCTC   2136
+                     ||||||||||||||.||||||||.|||||.|||||.|||||||..|||||
+c19434326-194   2853 CGCTGGGTGCAGACGCTGTCTGACCAGGTCCAGGAAGAGCTGCAGAGCTC   2902
+
+44905796-4490   2137 CCAGGTCACCCAGGAACTGAGGTGAGTGTCCCCATCCTGGC-CCTTGACC   2185
+                     |||.|||||.||.|||||||.||||||||||       .|| |.||.|||
+c19434326-194   2903 CCAAGTCACACAAGAACTGACGTGAGTGTCC-------AGCTCTTTCACC   2945
+
+44905796-4490   2186 CTCCTGGTGGGC-GGCTATACCTCCCCAGGTCCAGGTTTCATTCTGCC-C   2233
+                     |||      ||| |||...|.||     |.||||||.|      |||| |
+c19434326-194   2946 CTC------GGCAGGCACCAGCT-----GATCCAGGGT------TGCCTC   2978
+
+44905796-4490   2234 CTGTCGCTAAGTCTTGGGGGGCCTGGGT-CTCTGCTGGTTCTAGCTTCCT   2282
+                     ||.|                  |||||| |.|.||...||||.|.|||||
+c19434326-194   2979 CTAT------------------CTGGGTCCCCAGCCCCTTCTTGTTTCCT   3010
+
+44905796-4490   2283 CTTCCCATT---TCTG-ACTCCTGGCTTTAGCTCTCTGGAATTCTCTCTC   2328
+                      |||.||.|   |.|| |..||.||  ||.||   ||.||||.|||    
+c19434326-194   3011 -TTCTCAATTAGTGTGTAGCCCAGG--TTGGC---CTTGAATCCTC----   3050
+
+44905796-4490   2329 TCAGCTTTGTCTCTCTCTCTTCCCTTCTGACT-----------CAGTCTC   2367
+                           .||.||   |||.|..|||||||..|           |||    
+c19434326-194   3051 ------CTGCCT---TCTTTAGCCTTCTGGATGCTGGGAGGAACAG----   3087
+
+44905796-4490   2368 TCACA-CTCGTCCTGGCTCTGTC--TCTGTCCTTCCCTAGC-TCTTTTAT   2413
+                       ||| .|..|.||.|||..|||  | ||.|.||   |.|| ||||    
+c19434326-194   3088 --ACATTTATTACTTGCTTGGTCGAT-TGGCTTT---TGGCTTCTT----   3127
+
+44905796-4490   2414 ATAGAGACAGAGAGATGGGGTCTCACTGTGTTGCCCAGGCTGGTCTT-GA   2462
+                        ||||||        ||.||.||.|.|||..|.||.||||| ||| ||
+c19434326-194   3128 ---GAGACA--------GGATCCCATTCTGTAACTCAAGCTGG-CTTCGA   3165
+
+44905796-4490   2463 ACTTCTGGGCTCAAGCGATCCTCCCGCCTCGGCCTCCCAAAGTGCTGGGA   2512
+                     |      ||||| .||.||.||...|||.|.||.||.| ||.|.||||||
+c19434326-194   3166 A------GGCTC-TGCAATTCTTATGCCGCAGCTTCTC-AACTTCTGGGA   3207
+
+44905796-4490   2513 TTAGAGGCATGAGCCACCTTGCCCGGCCTCCTAGCTCCTTCTTCGTCTCT   2562
+                     ..|.|.||  |||                  ||   ||.||         
+c19434326-194   3208 ACACAAGC--GAG------------------TA---CCATC---------   3225
+
+44905796-4490   2563 GCCTCTGCCCTCTGCATCTGCTCTCTGCATCTGTCTCTGTCTCCTTCTCT   2612
+                            .|||||     ||||||.||     ||.||||.| ||||||.|
+c19434326-194   3226 -------ACCTCT-----TGCTCTGTG-----GTTTCTGGC-CCTTCTGT   3257
+
+44905796-4490   2613 CGGCCTCTGCCCCGTTCCTTC-TCTCCCTCTTGGGTCTCTCTGGCTCATC   2661
+                     |     |||       ||||| |||||.||.||.||.|            
+c19434326-194   3258 C-----CTG-------CCTTCATCTCCTTCCTGTGTTT------------   3283
+
+44905796-4490   2662 CCCATCTCGCCCGCCCCATCCCAGCCCTTCTCCCCGCCTCCCACTGTGCG   2711
+                                                                       
+c19434326-194   3283 --------------------------------------------------   3283
+
+44905796-4490   2712 ACACCCTCCCGCCCTCTCGGCC-GCAGGGCGCTGATGGACGAGACCATGA   2760
+                                 |||||.|||| |||||||.||||||||.||.||.||||
+c19434326-194   3284 ------------CCTCTGGGCCTGCAGGGCACTGATGGAGGACACTATGA   3321
+
+44905796-4490   2761 AGGAGTTGAAGGCCTACAAATCGGAACTGGAGGAACAACTGACCCCGGTG   2810
+                     .|||..|.|||||.||||||..|||.|||||||||||.|||...||.|||
+c19434326-194   3322 CGGAAGTAAAGGCTTACAAAAAGGAGCTGGAGGAACAGCTGGGTCCAGTG   3371
+
+44905796-4490   2811 GCGGAGGAGACGCGGGCACGGCTGTCCAAGGAGCTGCAGGCGGCGCAGGC   2860
+                     |||||||||||.|||||..|||||..|||.|||.||||||||||.|||||
+c19434326-194   3372 GCGGAGGAGACACGGGCCAGGCTGGGCAAAGAGGTGCAGGCGGCACAGGC   3421
+
+44905796-4490   2861 CCGGCTGGGCGCGGACATGGAGGACGTGTGCGGCCGCCTGGTGCAGTACC   2910
+                     |||.||.||.||.|||||||||||..|..||..|||.||.|.||||||||
+c19434326-194   3422 CCGACTCGGAGCCGACATGGAGGATCTACGCAACCGACTCGGGCAGTACC   3471
+
+44905796-4490   2911 GCGGCGAGGTGCAGGCCATGCTCGGCCAGAGCACCGAGGAGCTGCGGGTG   2960
+                     ||..|||||||||..|||||||.|||||||||||.||||||.|.||||.|
+c19434326-194   3472 GCAACGAGGTGCACACCATGCTGGGCCAGAGCACAGAGGAGATACGGGCG   3521
+
+44905796-4490   2961 CGCCTCGCCTCCCACCTGCGCAAGCTGCGTAAGCGGCTCCTCCGCGATGC   3010
+                     ||.|||.||.|.||||||||||||.||||.|||||..|..|.||.|||||
+c19434326-194   3522 CGGCTCTCCACACACCTGCGCAAGATGCGCAAGCGCTTGATGCGGGATGC   3571
+
+44905796-4490   3011 CGATGACCTGCAGAAGCGCCTGGCAGTGTACCAGGCCGGGGCCCGCGAGG   3060
+                     |||.||.||||||||||||||.||.||||||.||||.|||||.|||||||
+c19434326-194   3572 CGAGGATCTGCAGAAGCGCCTAGCTGTGTACAAGGCAGGGGCACGCGAGG   3621
+
+44905796-4490   3061 GCGCCGAGCGCGGCCTCAGCGCCATCCGCGAGCGCCTGGGGCCCCTGGTG   3110
+                     |||||||||||||..|.||.||||||||.||||||||||||||.||||||
+c19434326-194   3622 GCGCCGAGCGCGGTGTGAGTGCCATCCGTGAGCGCCTGGGGCCTCTGGTG   3671
+
+44905796-4490   3111 GAACAGGGCCGCGTGCGGGCCGCCACTGTGGGCTCCCTGGCCGGCCAGCC   3160
+                     ||.||.||.|||..|||..|.||||...|.|||.|...|||||.||||||
+c19434326-194   3672 GAGCAAGGTCGCCAGCGCACTGCCAACCTAGGCGCTGGGGCCGCCCAGCC   3721
+
+44905796-4490   3161 GCTACAGGAGCGGGCCCAGGCCTGGGGCGAGCGGCTGCGCGCGCGGATGG   3210
+                     .||.|..||.||.||||||||.|..||.||.||..|.||.|.||||.|||
+c19434326-194   3722 TCTGCGCGATCGCGCCCAGGCTTTTGGTGACCGCATCCGAGGGCGGCTGG   3771
+
+44905796-4490   3211 AGGAGATGGGCAGCCGGACCCGCGACCGCCTGGACGAGGTGAAGGAGCAG   3260
+                     ||||..||||||.||.|.||||.||||||||.||.||||||...|||||.
+c19434326-194   3772 AGGAAGTGGGCAACCAGGCCCGTGACCGCCTAGAGGAGGTGCGTGAGCAC   3821
+
+44905796-4490   3261 GTGGCGGAGGTGCGCGCCAAGCTGGAGGAGCAGGCCCAGCAGATACGCCT   3310
+                     .|||.||||||||||.|||||.|||||||.|||.|||||||.||||||||
+c19434326-194   3822 ATGGAGGAGGTGCGCTCCAAGATGGAGGAACAGACCCAGCAAATACGCCT   3871
+
+44905796-4490   3311 GCAGGCCGAGGCCTTCCAGGCCCGCCTCAAGAGCTGGTTCGAGCCCCTGG   3360
+                     ||||||.|||..|||||||||||||||||||.|||||||||||||..|.|
+c19434326-194   3872 GCAGGCGGAGATCTTCCAGGCCCGCCTCAAGGGCTGGTTCGAGCCAATAG   3921
+
+44905796-4490   3361 TGGAAGACATGCAGCGCCAGTGGGCCGGGCTGGTGGAGAAGGTGCAGGCT   3410
+                     |||||||||||||.|||||||||||....|||.||||||||.|.|||||.
+c19434326-194   3922 TGGAAGACATGCATCGCCAGTGGGCAAACCTGATGGAGAAGATACAGGCC   3971
+
+44905796-4490   3411 GCCGTGGGCACCAGCGC------CGCCCCTGT-GCCCAGCGACAATCACT   3453
+                     .|.||||..||||.|.|      |.||||.|| |||||| ||.|||||.|
+c19434326-194   3972 TCTGTGGCTACCAACCCCATCATCACCCCAGTGGCCCAG-GAGAATCAAT   4020
+
+44905796-4490   3454 GAACGCCGAAGCCTGCAGCCATGCGACCCCACGCCACCCCGTGCCTCCTG   3503
+                     ||     |.|.|||                             .||||||
+c19434326-194   4021 GA-----GTATCCT-----------------------------TCTCCTG   4036
+
+44905796-4490   3504 CCTCC-GC----GCAGCC---TGCAG-CGGGAGACCCTGTCCCCGCCCCA   3544
+                       ||| ||    .||.||   |.||| |.||.|.||||||     |.|.|
+c19434326-194   4037 --TCCTGCAACAACATCCATATCCAGCCAGGTGGCCCTGT-----CTCAA   4079
+
+44905796-4490   3545 GCCGTCCTC-CTGG------GGTGGACCCTAGTTTAATAAAGATTCACCA   3587
+                     ||  .|||| ||||      ||||| ||||.|.|||||||||||||.||.
+c19434326-194   4080 GC--ACCTCTCTGGCCCTCTGGTGG-CCCTTGCTTAATAAAGATTCTCCG   4126
+
+44905796-4490   3588 AGTTTCAC   3595
+                     ||   |||
+c19434326-194   4127 AG---CAC   4131
+
+
+#---------------------------------------
+#---------------------------------------
