@@ -1,0 +1,210 @@
+########################################
+# Program: stretcher
+# Rundate: Tue 22 Apr 2025 00:10:32
+# Commandline: stretcher
+#    -asequence psen1-homo.fasta
+#    -bsequence psen1-mouse.fasta
+#    -gapopen 16
+#    -gapextend 4
+#    -outfile psen1_stretcher.aln
+#    -datafile EDNAFULL
+#    -auto
+# Align_format: markx0
+# Report_file: psen1_stretcher.aln
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NC_000014.9_cds_XP_047287556.1_1
+# 2: NC_000078.7_cds_NP_001349200.1_1
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 1404
+# Identity:    1224/1404 (87.2%)
+# Similarity:  1224/1404 (87.2%)
+# Gaps:           0/1404 ( 0.0%)
+# Score: 5400
+# 
+#
+#=======================================
+
+               10        20        30        40        50
+NC_000 ATGACAGAGTTACCTGCACCGTTGTCCTACTTCCAGAATGCACAGATGTC
+       ::::::::: :::::::::: :::::::::::::::::::: ::::::::
+NC_000 ATGACAGAGATACCTGCACCTTTGTCCTACTTCCAGAATGCCCAGATGTC
+               10        20        30        40        50
+
+               60        70        80        90       100
+NC_000 TGAGGACAACCACCTGAGCAATACTGTACGTAGCCAGAATGACAATAGAG
+       :::::::: ::::   ::::   :  : :: :::::::::::::    ::
+NC_000 TGAGGACAGCCACTCCAGCAGCGCCATCCGGAGCCAGAATGACAGCCAAG
+               60        70        80        90       100
+
+              110       120       130       140       150
+NC_000 AACGGCAGGAGCACAACGACAGACGGAGCCTTGGCCACCCTGAGCCATTA
+       :::::::: ::::  : ::::: : ::: :::: : ::::::::::: ::
+NC_000 AACGGCAGCAGCAGCATGACAGGCAGAGACTTGACAACCCTGAGCCAATA
+              110       120       130       140       150
+
+              160       170       180       190       200
+NC_000 TCTAATGGACGACCCCAGGGTAACTCCCGGCAGGTGGTGGAGCAAGATGA
+       :::::::: :: :::::: :::::::  : ::::::::::: ::::::::
+NC_000 TCTAATGGGCGGCCCCAGAGTAACTCAAGACAGGTGGTGGAACAAGATGA
+              160       170       180       190       200
+
+              210       220       230       240       250
+NC_000 GGAAGAAGATGAGGAGCTGACATTGAAATATGGCGCCAAGCATGTGATCA
+       ::: ::::: :: :::::::::::::::::::: ::::::::::: ::::
+NC_000 GGAGGAAGACGAAGAGCTGACATTGAAATATGGAGCCAAGCATGTCATCA
+              210       220       230       240       250
+
+              260       270       280       290       300
+NC_000 TGCTCTTTGTCCCTGTGACTCTCTGCATGGTGGTGGTCGTGGCTACCATT
+       ::::::::::::: ::::: ::::::::::: :: :::::::: ::::: 
+NC_000 TGCTCTTTGTCCCCGTGACCCTCTGCATGGTCGTCGTCGTGGCCACCATC
+              260       270       280       290       300
+
+              310       320       330       340       350
+NC_000 AAGTCAGTCAGCTTTTATACCCGGAAGGATGGGCAGCTAATCTATACCCC
+       :: ::::::::::: :::::::::::::: :: ::::::::::: :::::
+NC_000 AAATCAGTCAGCTTCTATACCCGGAAGGACGGTCAGCTAATCTACACCCC
+              310       320       330       340       350
+
+              360       370       380       390       400
+NC_000 ATTCACAGAAGATACCGAGACTGTGGGCCAGAGAGCCCTGCACTCAATTC
+       :::::::::::: :: :::::::: ::::: :::::::::::::: :: :
+NC_000 ATTCACAGAAGACACTGAGACTGTAGGCCAAAGAGCCCTGCACTCGATCC
+              360       370       380       390       400
+
+              410       420       430       440       450
+NC_000 TGAATGCTGCCATCATGATCAGTGTCATTGTTGTCATGACTATCCTCCTG
+       ::::::: :::::::::::::::::::::::  : ::::: :::::::::
+NC_000 TGAATGCGGCCATCATGATCAGTGTCATTGTCATTATGACCATCCTCCTG
+              410       420       430       440       450
+
+              460       470       480       490       500
+NC_000 GTGGTTCTGTATAAATACAGGTGCTATAAGGTCATCCATGCCTGGCTTAT
+       ::::: :::::::::::::::::::: ::::::::::: :::::::::::
+NC_000 GTGGTCCTGTATAAATACAGGTGCTACAAGGTCATCCACGCCTGGCTTAT
+              460       470       480       490       500
+
+              510       520       530       540       550
+NC_000 TATATCATCTCTATTGTTGCTGTTCTTTTTTTCATTCATTTACTTGGGGG
+       ::: :::::::: :::::::::::::::::::: ::::::::::: ::::
+NC_000 TATTTCATCTCTGTTGTTGCTGTTCTTTTTTTCGTTCATTTACTTAGGGG
+              510       520       530       540       550
+
+              560       570       580       590       600
+NC_000 AAGTGTTTAAAACCTATAACGTTGCTGTGGACTACATTACTGTTGCACTC
+       :::: ::::: ::::: :: :: :: ::::::::: :::: :: ::::::
+NC_000 AAGTATTTAAGACCTACAATGTCGCCGTGGACTACGTTACAGTAGCACTC
+              560       570       580       590       600
+
+              610       620       630       640       650
+NC_000 CTGATCTGGAATTTTGGTGTGGTGGGAATGATTTCCATTCACTGGAAAGG
+       :: :::::::::::::::::::: :: :::::: :::: :::::::::::
+NC_000 CTAATCTGGAATTTTGGTGTGGTCGGGATGATTGCCATCCACTGGAAAGG
+              610       620       630       640       650
+
+              660       670       680       690       700
+NC_000 TCCACTTCGACTCCAGCAGGCATATCTCATTATGATTAGTGCCCTCATGG
+        :: :::::::: :::::::: :::::::::::::: :::::::::::::
+NC_000 CCCCCTTCGACTGCAGCAGGCGTATCTCATTATGATCAGTGCCCTCATGG
+              660       670       680       690       700
+
+              710       720       730       740       750
+NC_000 CCCTGGTGTTTATCAAGTACCTCCCTGAATGGACTGCGTGGCTCATCTTG
+       ::::::: ::::::::::::::::: :::::::: :: ::::::::::::
+NC_000 CCCTGGTATTTATCAAGTACCTCCCCGAATGGACCGCATGGCTCATCTTG
+              710       720       730       740       750
+
+              760       770       780       790       800
+NC_000 GCTGTGATTTCAGTATATGATTTAGTGGCTGTTTTGTGTCCGAAAGGTCC
+       ::::::::::::::::::::::: ::::::::::: ::::: ::::: ::
+NC_000 GCTGTGATTTCAGTATATGATTTGGTGGCTGTTTTATGTCCCAAAGGCCC
+              760       770       780       790       800
+
+              810       820       830       840       850
+NC_000 ACTTCGTATGCTGGTTGAAACAGCTCAGGAGAGAAATGAAACGCTTTTTC
+       :::::::::::::::::::::::::::::: :::::::: :: :: ::::
+NC_000 ACTTCGTATGCTGGTTGAAACAGCTCAGGAAAGAAATGAGACTCTCTTTC
+              810       820       830       840       850
+
+              860       870       880       890       900
+NC_000 CAGCTCTCATTTACTCCTCAACAATGGTGTGGTTGGTGAATATGGCAGAA
+       ::::::: :: :: :::::::::::::::::::::::::::::::: :::
+NC_000 CAGCTCTTATCTATTCCTCAACAATGGTGTGGTTGGTGAATATGGCTGAA
+              860       870       880       890       900
+
+              910       920       930       940       950
+NC_000 GGAGACCCGGAAGCTCAAAGGAGAGTATCCAAAAATTCCAAGTATAATGC
+       :::::::: ::::: :::::::: ::: :::: ::  ::::::::::  :
+NC_000 GGAGACCCAGAAGCCCAAAGGAGGGTACCCAAGAACCCCAAGTATAACAC
+              910       920       930       940       950
+
+              960       970       980       990      1000
+NC_000 AGAAAGCACAGAAAGGGAGTCACAAGACACTGTTGCAGAGAATGATGATG
+       : ::::  : :: :: ::: :::: :::: :: : : : ::: :::::::
+NC_000 ACAAAGAGCGGAGAGAGAGACACAGGACAGTGGTTCTGGGAACGATGATG
+              960       970       980       990      1000
+
+             1010      1020      1030      1040      1050
+NC_000 GCGGGTTCAGTGAGGAATGGGAAGCCCAGAGGGACAGTCATCTAGGGCCT
+       : :: ::::::::::: ::::: ::::: :: :::::::: :: ::::::
+NC_000 GTGGCTTCAGTGAGGAGTGGGAGGCCCAAAGAGACAGTCACCTGGGGCCT
+             1010      1020      1030      1040      1050
+
+             1060      1070      1080      1090      1100
+NC_000 CATCGCTCTACACCTGAGTCACGAGCTGCTGTCCAGGAACTTTCCAGCAG
+       :::::::: :: :: :::::: ::::::::::::::::::::::  : ::
+NC_000 CATCGCTCCACTCCCGAGTCAAGAGCTGCTGTCCAGGAACTTTCTGGGAG
+             1060      1070      1080      1090      1100
+
+             1110      1120      1130      1140      1150
+NC_000 TATCCTCGCTGGTGAAGACCCAGAGGAAAGGGGAGTAAAACTTGGATTGG
+        :: ::  :  :::::::::: :::::::: ::::::::::::::: :::
+NC_000 CATTCTAACGAGTGAAGACCCGGAGGAAAGAGGAGTAAAACTTGGACTGG
+             1110      1120      1130      1140      1150
+
+             1160      1170      1180      1190      1200
+NC_000 GAGATTTCATTTTCTACAGTGTTCTGGTTGGTAAAGCCTCAGCAACAGCC
+       :::::::::::::::::::::::::::::::::: ::::::::::: :::
+NC_000 GAGATTTCATTTTCTACAGTGTTCTGGTTGGTAAGGCCTCAGCAACCGCC
+             1160      1170      1180      1190      1200
+
+             1210      1220      1230      1240      1250
+NC_000 AGTGGAGACTGGAACACAACCATAGCCTGTTTCGTAGCCATATTAATTGG
+       ::::::::::::::::::::::::::::: :: ::::::::: : :: ::
+NC_000 AGTGGAGACTGGAACACAACCATAGCCTGCTTTGTAGCCATACTGATCGG
+             1210      1220      1230      1240      1250
+
+             1260      1270      1280      1290      1300
+NC_000 TTTGTGCCTTACATTATTACTCCTTGCCATTTTCAAGAAAGCATTGCCAG
+         :::::::::::::: : :: :: ::::::::::::::::: :::::::
+NC_000 CCTGTGCCTTACATTACTCCTGCTCGCCATTTTCAAGAAAGCGTTGCCAG
+             1260      1270      1280      1290      1300
+
+             1310      1320      1330      1340      1350
+NC_000 CTCTTCCAATCTCCATCACCTTTGGGCTTGTTTTCTACTTTGCCACAGAT
+       : :: :: :::::::::::::: ::::: :: :::::::: ::::: :::
+NC_000 CCCTCCCCATCTCCATCACCTTCGGGCTCGTGTTCTACTTCGCCACGGAT
+             1310      1320      1330      1340      1350
+
+             1360      1370      1380      1390      1400
+NC_000 TATCTTGTACAGCCTTTTATGGACCAATTAGCATTCCATCAATTTTATAT
+       :: ::::: ::::: :: ::::::::: : ::::::::::: ::::::::
+NC_000 TACCTTGTGCAGCCCTTCATGGACCAACTTGCATTCCATCAGTTTTATAT
+             1360      1370      1380      1390      1400
+
+           
+NC_000 CTAG
+       ::::
+NC_000 CTAG
+           
+
+
+#---------------------------------------
+#---------------------------------------
