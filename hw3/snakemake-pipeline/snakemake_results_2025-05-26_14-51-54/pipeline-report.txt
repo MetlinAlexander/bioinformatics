@@ -1,0 +1,6 @@
+Mapping percentage: 99.05%
+Detected mapping percent: 99.05%
+Result files:
+snakemake_results_2025-05-26_14-51-54/fastqc/SRR33602302_fastqc.html
+snakemake_results_2025-05-26_14-51-54/mapping-report
+snakemake_results_2025-05-26_14-51-54/mapping.vcf
